@@ -16,14 +16,13 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 #App Screenshot
-
-![s1](https://github.com/user-attachments/assets/f333447a-4ee4-47c9-9869-278ab02d27cb)
-![s2](https://github.com/user-attachments/assets/d89a2b85-4924-4d6b-8ec7-1883a934ead2)
-![s3](https://github.com/user-attachments/assets/5030f133-5d1d-49fb-b22f-e4bd2752b3d2)
-![s4](https://github.com/user-attachments/assets/c678d517-4ac7-4ecc-89ae-c1ac79c82fac)
-![s5](https://github.com/user-attachments/assets/037a233e-fe7a-4e2f-9a6a-bf8d3ae522f9)
-![s6](https://github.com/user-attachments/assets/f33b47ad-518a-4168-98de-354f04ec2612)
-![s7](https://github.com/user-attachments/assets/ff9775ad-c508-4c8e-ab06-1b78f3b1d32e)
+<img src="https://github.com/user-attachments/assets/f333447a-4ee4-47c9-9869-278ab02d27cb" alt="s1" height="800",width=350>
+<img src="https://github.com/user-attachments/assets/d89a2b85-4924-4d6b-8ec7-1883a934ead2" alt="s2" height="800",width=350>
+<img src="https://github.com/user-attachments/assets/5030f133-5d1d-49fb-b22f-e4bd2752b3d2" alt="s3" height="800",width=350>
+<img src="https://github.com/user-attachments/assets/c678d517-4ac7-4ecc-89ae-c1ac79c82fac" alt="s4" height="800",width=350>
+<img src="https://github.com/user-attachments/assets/037a233e-fe7a-4e2f-9a6a-bf8d3ae522f9" alt="s5" height="800",width=350>
+<img src="https://github.com/user-attachments/assets/f33b47ad-518a-4168-98de-354f04ec2612" alt="s6" height="800",width=350>
+<img src="https://github.com/user-attachments/assets/ff9775ad-c508-4c8e-ab06-1b78f3b1d32e" alt="s7" height="800",width=350>
 
 
 
