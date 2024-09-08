@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:voting_app/view/forgot_password_screen.dart';
 import 'package:voting_app/view/reset_password_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -19,7 +20,7 @@ class LoginScreenState extends State<LoginScreen> {
            child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-           
+             //!------Top Section---------/// 
               SizedBox(height: 44.h,) ,
               Container(
               margin: EdgeInsets.only(top: 10.h),  
@@ -59,6 +60,7 @@ class LoginScreenState extends State<LoginScreen> {
                 thickness: 3,
               ),
               
+              //!------Main body Section---------/// 
               SizedBox(height: 22.h,),
            
               SizedBox(
@@ -189,7 +191,9 @@ class LoginScreenState extends State<LoginScreen> {
                   )
                 ),
                 onPressed: (){
-               
+                 Navigator.push(context, MaterialPageRoute(builder: (context){
+                  return const ForgotPasswordScreen();
+                }));
                 },
                 child:Text("Login",
                 style: TextStyle(fontSize: 16.sp,fontWeight: FontWeight.w500,color: Colors.white),) 
@@ -198,7 +202,9 @@ class LoginScreenState extends State<LoginScreen> {
                SizedBox(
                 height: 71.h,
                ),
-
+                
+                
+               //!------Bottom Section---------///  
                const Divider(thickness: 1,
                 height: 1,
                ),

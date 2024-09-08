@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:voting_app/view/numberotp_verification_screen.dart';
 
 class ForgotPasswordScreen extends StatefulWidget {
   const ForgotPasswordScreen({super.key});
@@ -18,7 +19,8 @@ class ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
            child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-           
+             
+              //!------Top Section---------/// 
               SizedBox(height: 44.h,) ,
               Container(
               margin: EdgeInsets.only(top: 10.h),  
@@ -57,7 +59,8 @@ class ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
               const Divider(
                 thickness: 3,
               ),
-
+             
+             //!------Main body Section---------/// 
               SizedBox(height: 22.h,) , 
 
               Container(
@@ -128,16 +131,20 @@ class ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                   )
                 ),
                 onPressed: (){
-                
+                Navigator.push(context, MaterialPageRoute(builder: (context){
+                  return const NumberOtpVerificationScreen();
+                }));
                 },
-                child:Text("Fogot Password",
+                child:Text("Continue",
                 style: TextStyle(fontSize: 16.sp,fontWeight: FontWeight.w500,color: Colors.white),) 
                ,),
 
                SizedBox(
                 height: 71.h,
                ),
-
+              
+               
+               //!------Bottom Section---------///  
                const Divider(thickness: 1,
                 height: 1,
                ),

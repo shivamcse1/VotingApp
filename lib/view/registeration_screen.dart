@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:voting_app/view/emailotp_verification_screen.dart';
 
 class RegisterationScreen extends StatefulWidget {
   const RegisterationScreen({super.key});
@@ -13,12 +14,13 @@ class RegisterationScreenState extends State<RegisterationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-         
+
+           
          body: SingleChildScrollView(
            child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-           
+              //!------Top Section---------/// 
               SizedBox(height: 44.h,) ,
            
               Container(
@@ -61,6 +63,7 @@ class RegisterationScreenState extends State<RegisterationScreen> {
               
               SizedBox(height: 22.h,),
            
+           //!------Main body Section---------/// 
               SizedBox(
               width: double.infinity,
               height: 178.h,  
@@ -247,13 +250,18 @@ class RegisterationScreenState extends State<RegisterationScreen> {
                   )
                 ),
                 onPressed: (){
-                      
+                 Navigator.push(context, MaterialPageRoute(builder: (context){
+                  return const EmailOtpVerificationScreen();
+                }));     
                 },
                 child:Text("Register",
                 style: TextStyle(fontSize: 16.sp,fontWeight: FontWeight.w500,color: Colors.white),) 
                ,),
 
                SizedBox(height: 71.h,),
+
+               
+               //!------Bottom Section---------///  
                const Divider(thickness: 1,
                 height: 1,
                ),

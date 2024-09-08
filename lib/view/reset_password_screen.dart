@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:voting_app/view/livevote_screen.dart';
+import 'package:voting_app/view/voting_screen.dart';
 
 class ResetPasswordScreen extends StatefulWidget {
   const ResetPasswordScreen({super.key});
@@ -18,6 +20,7 @@ class ResetPasswordScreenState extends State<ResetPasswordScreen> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
            
+              //!------Top Section---------/// 
               SizedBox(height: 44.h,) ,
               Container(
               margin: EdgeInsets.only(top: 10.h),  
@@ -37,7 +40,7 @@ class ResetPasswordScreenState extends State<ResetPasswordScreen> {
                 suffixIcon: IconButton(
                 iconSize: 15.h,
                 onPressed: (){
-           
+                  
                 },  
                 icon:const Icon(Icons.share_outlined) ,), 
                 border: OutlineInputBorder(
@@ -56,7 +59,8 @@ class ResetPasswordScreenState extends State<ResetPasswordScreen> {
               const Divider(
                 thickness: 3,
               ),
-
+              
+              //!------Main body Section---------/// 
               SizedBox(
                 height: 43.h,
               ),
@@ -72,6 +76,7 @@ class ResetPasswordScreenState extends State<ResetPasswordScreen> {
                 height: 38.h,
               ),
 
+               
               Container(
                 margin: EdgeInsets.only(left: 94.w,right: 94.w),
                 height: 28.h,
@@ -181,6 +186,9 @@ class ResetPasswordScreenState extends State<ResetPasswordScreen> {
                   )
                 ),
                 onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context){
+                  return const LiveVoteScreen();
+                }));  
 
                 },
                 child:Text("Reset Password",
@@ -190,7 +198,9 @@ class ResetPasswordScreenState extends State<ResetPasswordScreen> {
                 SizedBox(
                 height: 60.h,
                ),
-
+             
+              
+               //!------Bottom Section---------///  
                const Divider(thickness: 1,
                 height: 1,
                ),
