@@ -16,7 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 #App Screenshot
-<img src="https://github.com/shivamcse1/VotingApp/blob/master/assets/screenshot/s1.png" alt="s1" height="800",width=350>
+<img src="assets/screenshot/s1.png" alt="s1" height="800",width=350><br>
 <img src="assets/screenshot/s2.png" alt="s2" height="800",width=350>
 <img src="assets/screenshot/s3.png" alt="s2" height="800",width=350>
 <img src="assets/screenshot/s4.png" alt="s2" height="800",width=350>
