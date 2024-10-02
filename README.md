@@ -19,18 +19,18 @@ samples, guidance on mobile development, and a full API reference.
 
 
 <p>
-    <img src="assets/screenshot/s1.png" width="200">
-    <img src="assets/screenshot/s2.png" width="200">
-    <img src="assets/screenshot/s3.png" width="200">
+    <img src="assets/screenshot/s1.png" width="180">
+    <img src="assets/screenshot/s2.png" width="180">
+    <img src="assets/screenshot/s3.png" width="180">
 </p>  
 
 <p>
-    <img src="assets/screenshot/s4.png" width="200">
-    <img src="assets/screenshot/s5.png" width="200">
-    <img src="assets/screenshot/s6.png" width="200">
+    <img src="assets/screenshot/s4.png" width="180">
+    <img src="assets/screenshot/s5.png" width="180">
+    <img src="assets/screenshot/s6.png" width="180">
 </p>
 
-<img src="assets/screenshot/s7.png" width="200">
+<img src="assets/screenshot/s7.png" width="180">
 
 
 
