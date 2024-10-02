@@ -19,10 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 ![si image]('assets/screenshot/s2.png')
 <img src="assets/screenshot/s2.png" alt="s2" height="800",width=350>
 <img src="assets/screenshot/s3.png" alt="s2" height="800",width=350>
-<img src="assets/screenshot/s4.png" alt="s2" height="800",width=350>
-<img src="assets/screenshot/s5.png" alt="s2" height="800",width=350>
-<img src="assets/screenshot/s6.png" alt="s2" height="800",width=350>
-<img src="assets/screenshot/s7.png" alt="s2" height="800",width=350>
+
 
 
 
