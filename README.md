@@ -16,9 +16,21 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 #App Screenshot
-![si image]('assets/screenshot/s2.png')
-<img src="assets/screenshot/s2.png" alt="s2" height="800",width=350>
-<img src="assets/screenshot/s3.png" alt="s2" height="800",width=350>
+
+
+<p>
+    <img src="assets/screenshot/s1.png" width="200">
+    <img src="assets/screenshot/s2.png" width="200">
+    <img src="assets/screenshot/s3.png" width="200">
+</p>  
+
+<p>
+    <img src="assets/screenshot/s4.png" width="200">
+    <img src="assets/screenshot/s5.png" width="200">
+    <img src="assets/screenshot/s6.png" width="200">
+</p>
+
+<img src="assets/screenshot/s7.png" width="200">
 
 
 
